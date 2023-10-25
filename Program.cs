@@ -5,7 +5,14 @@ using Models;
 
 
 
+//Mudando Localização do codigo
+CultureInfo.DefaultThreadCurrentCulture= new  CultureInfo("en-Us");
 
+
+
+
+//Formatando Valores
+Console.WriteLine($"{32.40:C}");
 
 
 
